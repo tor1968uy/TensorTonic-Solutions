@@ -1,11 +1,11 @@
-# TensorTonic Solutions
+# Soluciones de TensorTonic
 
-Welcome to my TensorTonic solutions repository!
+¡Bienvenido a mi repositorio de soluciones de TensorTonic!
 
-Here you'll find my solutions to various machine learning and deep learning problems from [TensorTonic](https://tensortonic.com).
+Aquí encontrarás mis soluciones a diversos problemas de aprendizaje automático y aprendizaje profundo en [TensorTonic](https://tensortonic.com).
 
-## What is TensorTonic?
+## ¿Qué es TensorTonic?
 
-TensorTonic is a platform where you can implement core algorithms of Machine Learning from scratch.
+TensorTonic es una plataforma donde puedes implementar algoritmos fundamentales de aprendizaje automático desde cero.
 
-This repository contains my personal solutions to these problems, automatically synchronized from the platform.
+Este repositorio contiene mis soluciones personales a estos problemas, sincronizadas automáticamente desde la plataforma.
