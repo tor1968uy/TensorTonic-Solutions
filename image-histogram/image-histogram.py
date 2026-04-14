@@ -1,17 +1,16 @@
 def image_histogram(image):
     """
-    Compute the intensity histogram of a 2D grayscale image.
-    Returns: a list of exactly 256 integers.
+    Compute the intensity histogram of a grayscale image.
     """
-    # 1. Initialize a list of 256 zeros (one for each intensity bin)
-    histogram = [0] * 256
+    # 1. Crear una lista de 256 ceros (bins del 0 al 255)
+    hist = [0] * 256
     
-    # 2. Iterate through every row in the 2D image
+    # 2. Recorrer cada fila de la imagen
     for row in image:
-        # 3. Iterate through every pixel in the row
+        # 3. Recorrer cada píxel de la fila
         for pixel in row:
-            # The pixel value is the index into the histogram
-            # pixel must be an integer between 0 and 255
-            histogram[pixel] += 1
+            # 4. Incrementar el bin correspondiente al valor del píxel
+            hist[pixel] += 1
             
-    return histogram
+    # 5. Retornar la lista con los 256 conteos
+    return hist
